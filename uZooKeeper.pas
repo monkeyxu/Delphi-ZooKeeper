@@ -1204,7 +1204,7 @@ type
     * indicates the reason.
   *)
 
-function zookeeper_init(host: PAnsiChar; fn: watcher_fn; recv_timeout: Integer; clientId: pclientid_t; context: Pointer; flags: Integer): pzhandle_t { ZOOAPI }{ <= !!!4 unknown type };
+function zookeeper_init(host: PAnsiChar; fn: watcher_fn; recv_timeout: Integer; clientId: pclientid_t; context: Pointer; flags: Integer): pzhandle_t { ZOOAPI }{ <= !!!4 unknown type }; cdecl;
 (* *
   * \brief close the zookeeper handle and free up any resources.
   *
